@@ -1,4 +1,5 @@
-Lucy Core AI 
+Lucy Core AI
+
 Lucy Core AI is a modular artificial intelligence platform designed around a central orchestration system that coordinates specialized agents. The project explores a structured approach to building safe, transparent, and extensible AI systems that can evolve through controlled collaboration and research.
 Lucy focuses on separating responsibilities into independent modules, allowing the system to grow gradually while maintaining stability, observability, and strong safeguards.
 Project Goals
