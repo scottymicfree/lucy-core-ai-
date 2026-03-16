@@ -36,7 +36,11 @@ Enterprise Auditability: Every orchestration decision and policy check is logged
 🛠️ Quick Start
 git clone https://github.com/scottymicfree/lucy-core-ai-
 cd lucy-core-ai-
+### Setup
 
+1. Copy `config.example.py` to `config.py` and fill in your own keys (do not share real keys publicly).
+2. Ensure `.env` contains only local development variables.
+3. All sensitive files are ignored via `.gitignore`.
 Install dependencies:
 pip install -r requirements.txt
 
