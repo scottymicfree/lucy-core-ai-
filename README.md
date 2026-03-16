@@ -40,6 +40,13 @@ Additional agents (Humana, ThinkTank, Introspect, EvolveCore, SyncAgent, etc.) c
 E.M.M.A. ensures that **no agent can execute an action without passing through SafeGuard**. This provides a secure, auditable, and modular AI operating system framework.  
 
 ---
+#License
+Lucy Core AI is an independent project created by Randy Webb.
+All rights reserved unless otherwise specified.
+The project may be shared for research visibility and controlled collaboration.
+Status
+Early development – architecture and core modules in progress.
+
 
 ## Getting Started
 
