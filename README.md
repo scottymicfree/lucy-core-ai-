@@ -1,4 +1,16 @@
-# Lucy Core AI — Powered by E.M.M.A.
+# Lucy-Core-AI: Agentic Governance Kernel
+
+**Lucy** — the user-facing AI persona  
+**Powered by E.M.M.A. (Enhanced Machine Mind Architecture)** — the modular AIOS kernel
+
+Lucy-Core-AI is a modular Agentic Operating System (AIOS) designed to orchestrate autonomous AI agents with a secure, policy-gated governance layer. By decoupling task execution from system-level compliance, Lucy provides a hardened "chassis" for deploying reliable AI workflows.
+
+**Key Highlights:**
+- **Lucy**: Friendly, interactive persona handling communication, context, and user-facing logic.  
+- **E.M.M.A.**: Technical core managing orchestrator, safety, memory, and multi-agent coordination.  
+- **Modular & Extensible**: Each agent handles a focused responsibility and can be upgraded independently.  
+- **Policy-Gated Safety**: Every action passes through SafeGuard, ensuring compliance and security.  
+- **Research-Ready**: Architecture is designed to allow controlled collaboration, academic exploration, and integration of advanced models like PIGuard.
 
 Lucy-Core-AI: Agentic Governance Kernel
 Lucy is a modular Agentic Operating System (AIOS) designed to orchestrate autonomous AI agents with a secure, policy-gated governance layer. By decoupling task execution from system-level compliance, Lucy provides a hardened "chassis" for deploying reliable AI workflows.
@@ -82,9 +94,21 @@ Add dashboards, analytics, scheduler improvements, enhanced logging, and improve
 Phase 3 — Advanced Features (v3)
 Introduce adaptive reasoning (ThinkTank), human context (Humana), safe learning (EvolveCore), event-driven IPC, and auditable workflow persistence.
 ---
-License
-Lucy Core AI is an independent project created by Randy Webb.
-All rights reserved unless otherwise specified.
+## License
+
+Lucy-Core-AI is an independent project created by Randy Webb.  
+
+**Ownership & Rights**  
+- All source code, architecture designs, and agent logic are owned by Randy Webb unless otherwise specified.  
+- Sharing is permitted for **academic, research, or controlled collaboration purposes** only.  
+- Commercial use or redistribution requires explicit permission.  
+
+**Citation & Attribution**  
+- If you use Lucy-Core-AI in research, publications, or prototypes, please reference:  
+  *Randy Webb, Lucy-Core-AI: Agentic Governance Kernel, 2026.*
+
+**Disclaimer**  
+- Lucy-Core-AI is in early development (v1–v3 roadmap). Users should not rely on it for safety-critical production without further validation.
 The project may be shared for research visibility and controlled collaboration.
 Status
 Early development – architecture and core modules in progress.
