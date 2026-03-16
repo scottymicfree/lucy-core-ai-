@@ -1,4 +1,5 @@
-## EMMA Architecture Diagram
+Lucy AI
+Built on the EMMA (Enhanced Machine Mind Architecture) Framework
 
 Lucy operates as a layered AI operating system where user interaction flows through policy validation before any agent execution occurs.
 +----------------------+
