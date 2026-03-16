@@ -36,7 +36,51 @@ Security is the foundation of Lucy's architecture. The SafeGuard layer operates 
 We are building a secure framework for enterprise AI. We welcome contributors interested in:
 Security Research: Plugging in advanced adversarial robustness models.
 Compliance Logic: Extending policy sets for regulatory standards (HIPAA, SOC2, etc.).
-Kernel Performance: Optimizing inter-agent communication protocols.
+Kernel Performance: Optimizing inter-agent communication protocols
+Agents Overview
+Agent
+Role Summary
+More Info
+Orchestrator
+Manages all agents, routes tasks, handles lifecycle
+docs/SYSTEM_ARCHITECTURE.md
+SafeGuard
+Policy-gates actions, ensures compliance and safety
+docs/SYSTEM_ARCHITECTURE.md
+ThinkTank
+Reasoning, planning, task decomposition
+docs/SYSTEM_ARCHITECTURE.md
+TaskFlow
+Schedules multi-step workflows and task execution
+docs/SYSTEM_ARCHITECTURE.md
+DataVault
+Handles persistent memory, logs, and system state
+docs/SYSTEM_ARCHITECTURE.md
+PerfMon
+Monitors CPU, memory, disk, network, and energy
+docs/SYSTEM_ARCHITECTURE.md
+Introspect
+Audits agent behavior and system decisions
+docs/SYSTEM_ARCHITECTURE.md
+InteractUI
+Handles user input/output safely
+docs/SYSTEM_ARCHITECTURE.md
+Humana
+Tracks human context signals like urgency or stress
+docs/SYSTEM_ARCHITECTURE.md
+EvolveCore
+Manages safe adaptive improvements and learning
+docs/SYSTEM_ARCHITECTURE.md
+SyncAgent
+Handles external connections, data sync, and integration
+docs/SYSTEM_ARCHITECTURE.md
+Roadmap (v1 → v3)
+Phase 1 — Core Modular Foundation (v1)
+Build a stable, testable modular system: Orchestrator, SafeGuard, DataVault, TaskFlow, InteractUI, PerfMon, Introspect.
+Phase 2 — Usability & Observability (v2)
+Add dashboards, analytics, scheduler improvements, enhanced logging, and improved multi-agent coordination.
+Phase 3 — Advanced Features (v3)
+Introduce adaptive reasoning (ThinkTank), human context (Humana), safe learning (EvolveCore), event-driven IPC, and auditable workflow persistence.
 ---
 License
 Lucy Core AI is an independent project created by Randy Webb.
