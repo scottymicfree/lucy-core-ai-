@@ -1,0 +1,75 @@
+# LucyAI/demo/v1_demo.py
+"""
+Lucy AI v1 Demo
+Demonstrates basic flow of the EMMA Agentic Kernel (Orchestrator + Agents)
+Safe, runnable, no secrets exposed.
+"""
+
+import time
+import json
+
+# ------------------------------
+# SafeGuard Agent
+# ------------------------------
+class SafeGuard:
+    def validate(self, task_name):
+        print(f"[SafeGuard] Validating task: {task_name}")
+        # Placeholder logic: approve everything in demo
+        return True
+
+# ------------------------------
+# ThinkTank Agent
+# ------------------------------
+class ThinkTank:
+    def reason(self, task_name):
+        print(f"[ThinkTank] Decomposing task: {task_name}")
+        # Returns a simple plan
+        return [f"{task_name} step 1", f"{task_name} step 2"]
+
+# ------------------------------
+# TaskFlow Agent
+# ------------------------------
+class TaskFlow:
+    def execute(self, plan):
+        for step in plan:
+            print(f"[TaskFlow] Executing: {step}")
+            time.sleep(0.5)  # Simulate work
+        print("[TaskFlow] Task complete!")
+
+# ------------------------------
+# DataVault Agent
+# ------------------------------
+class DataVault:
+    def log(self, task_name, plan):
+        print(f"[DataVault] Logging task: {task_name}")
+        data = {"task": task_name, "plan": plan, "status": "complete"}
+        with open("demo_task_log.json", "w") as f:
+            json.dump(data, f, indent=2)
+        print("[DataVault] Task logged successfully!")
+
+# ------------------------------
+# Orchestrator (Kernel)
+# ------------------------------
+class Orchestrator:
+    def __init__(self):
+        self.safeguard = SafeGuard()
+        self.thinktank = ThinkTank()
+        self.taskflow = TaskFlow()
+        self.datavault = DataVault()
+
+    def run_task(self, task_name):
+        print(f"\n[Orchestrator] Starting task: {task_name}")
+        if self.safeguard.validate(task_name):
+            plan = self.thinktank.reason(task_name)
+            self.taskflow.execute(plan)
+            self.datavault.log(task_name, plan)
+        else:
+            print("[Orchestrator] Task blocked by SafeGuard!")
+
+# ------------------------------
+# Demo Execution
+# ------------------------------
+if __name__ == "__main__":
+    orchestrator = Orchestrator()
+    orchestrator.run_task("Demo Analysis")
+    print("\n[Demo] Lucy v1 demo complete!")
