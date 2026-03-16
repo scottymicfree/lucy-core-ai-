@@ -1,13 +1,22 @@
-Lucy Core AI
+Lucy Core AI — Powered by E.M.M.A.
 Copyright (c) 2026 Randy Webb
 
 All rights reserved.
 
-This software and associated documentation are the intellectual property of
-Randy Webb.
+This software, associated documentation, and architecture (Lucy / E.M.M.A.) are the intellectual property of Randy Webb.
 
-This repository is shared for research visibility and collaborative discussion.
-No part of this software may be copied, modified, distributed, or used
-commercially without explicit permission from the author.
+Permitted Use:
+- The repository may be used for research, educational purposes, and controlled collaboration.
+- Any use beyond research or educational purposes requires explicit written permission from the author.
 
-Unauthorized reproduction or redistribution is prohibited.
+Attribution:
+- If you use this repository in academic, technical, or research projects, please cite the original author: Randy Webb.
+
+Restrictions:
+- No part of this software may be copied, modified, distributed, or used commercially without explicit permission.
+- Unauthorized reproduction or redistribution is prohibited.
+
+Disclaimer:
+- This project is in early development.
+- The architecture and agents may not be suitable for critical production systems.
+- Users are responsible for validating all workflows before deployment.
