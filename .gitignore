@@ -1,24 +1,5 @@
-# --- Sensitive Data & Configuration ---
-.env
-config.py
-*.key
-*.pem
+# Ignore everything
+*
 
-# --- DataVault & Logs (IP protection) ---
-data/
-logs/
-*.db
-*.log
-*.sqlite
-
-# --- Proprietary Core ("Secret Sauce") ---
-private_modules/
-core_kernel_v1_optimized/
-
-# --- OS & Editor Artifacts ---
-.DS_Store
-Thumbs.db
-*.swp
-*.swo
-*.tmp
-*.bak
+# Except README files
+!README*
